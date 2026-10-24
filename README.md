@@ -1,24 +1,26 @@
 # KS Infotech Website
 
-A responsive static business website for KS Infotech. It is designed to be hosted free using GitHub Pages.
+A responsive static website for KS Infotech with cloud computing information, a CSS-built cloud data-center illustration, software/service cards, contact details, call and WhatsApp links, and an enquiry form.
+
+## Contact details already configured
+- Phone: +91 99715 18060
+- Email: ksinfotechggn26@gmail.com
+- WhatsApp: https://wa.me/919971518060
+- Location: Gurugram, Haryana
 
 ## Files
-- `index.html` — page content
-- `style.css` — responsive visual styling
-- `script.js` — mobile navigation and enquiry form behaviour
+- `index.html` — website content and sections
+- `style.css` — responsive design and data-center illustration
+- `script.js` — mobile menu and email enquiry form
 
-## Before publishing
-1. Open `script.js` in a text editor.
-2. Replace `YOUR-EMAIL@example.com` with your business email address.
-3. Update company wording/contact details in `index.html` if required.
-4. The enquiry form uses the visitor's email app (`mailto:`). It does not store submissions. For a real online form, connect a form service separately.
-5. Tally, BUSY, Marg and Vyapar are third-party product names; confirm your authorization/partner status and service claims before publishing. This design does not imply official affiliation.
+## Publish on GitHub Pages
+1. Extract the ZIP.
+2. Upload the contents of the `ks_infotech_website` folder (`index.html`, `style.css`, `script.js`, `README.md`) into the root of your GitHub repository.
+3. In repository **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/(root)`, then save.
+4. Wait for GitHub Pages to finish deployment.
 
-## Publish free with GitHub Pages
-1. Sign in or create an account at https://github.com/
-2. Create a new **public** repository named `ks-infotech-website` (or `<your-username>.github.io`).
-3. Upload `index.html`, `style.css`, `script.js` and the `assets` folder if used.
-4. In repository **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/ (root)`, then Save.
-5. Wait for GitHub Pages to publish the site. The URL will usually be `https://<your-username>.github.io/ks-infotech-website/` (or `https://<your-username>.github.io/` if repository named that way).
+## Enquiry form note
+The contact form opens the visitor's default email application using `mailto:`. It does not store or send form submissions through a server. A backend/form service is needed for direct online form submissions.
 
-GitHub's publishing UI may change; follow the current prompts in Settings → Pages.
+## Cloud service wording
+The website explains general cloud hosting benefits. Only advertise backup, uptime, security certifications, or data-center locations that are confirmed for the hosting plan you actually provide.
